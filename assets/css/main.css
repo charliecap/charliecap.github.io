@@ -2,6 +2,11 @@
 @import url("fontawesome-all.min.css");
 
 
+/*
+	Aerial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -223,6 +228,7 @@ input, select, textarea {
 	/* Set your background with this */
 
 		background: #390894 url("../images/cube.jpg") bottom left;
+		background: #390894 url("../../../../images/cube.jpg") bottom left;
 		background-repeat: repeat-x;
 		height: 110%;
 		left: 0;
@@ -720,6 +726,13 @@ input, select, textarea {
 		position: absolute;
 		text-align: center;
 		width: 100%;
+	}
+
+	.footerspan {
+		
+		margin: 10px auto;
+		padding: 4em;
+
 	}
 
 /* Wide */

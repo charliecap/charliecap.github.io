@@ -1,3 +1,13 @@
+window.onload = function () {
+  document.body.classList.remove("is-preload");
+};
+window.ontouchmove = function () {
+  return false;
+};
+window.onorientationchange = function () {
+  document.body.scrollTop = 0;
+};
+
 const now = new Date();
 const before = new Date("May 1 2020 10:00:00");
 const update = dateFns.distanceInWords(now, before, {addSuffix: true});
@@ -17,3 +27,12 @@ window.ontouchmove = function () {
 window.onorientationchange = function () {
   document.body.scrollTop = 0;
 };
+
+
+
+//  dateFns.distanceInWords(now, before, {addSuffix: true})
+
+//  time.innerHTML = dateFns.distanceInWords(now, before, {addSuffix: true});
+
+
+
