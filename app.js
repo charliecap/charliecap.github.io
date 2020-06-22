@@ -4,6 +4,7 @@ const update = dateFns.distanceInWords(today, before, {addSuffix: true});
 
 
 
+
 window.onload = function () {
   document.body.classList.remove("is-preload");
 };
