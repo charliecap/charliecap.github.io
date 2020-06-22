@@ -228,7 +228,7 @@ input, select, textarea {
 	/* Set your background with this */
 
 		background: #390894 url("../images/cube.jpg") bottom left;
-		background: #390894 url("../../../../images/cube.jpg") bottom left;
+		background: #390894 url("../images/cube.jpg") bottom left;
 		background-repeat: repeat-x;
 		height: 110%;
 		left: 0;
@@ -711,6 +711,31 @@ input, select, textarea {
 					display: none;
 				}
 
+
+
+
+
+/* 
+.ml7 {
+  position: relative;
+  font-weight: 900;
+  font-size: 3.7em;
+}
+.ml7 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+.ml7 .letter {
+  transform-origin: 0 100%;
+  display: inline-block;
+  line-height: 1em;
+}  
+*/
+
 /* Footer */
 
 	#footer {
@@ -731,9 +756,11 @@ input, select, textarea {
 	.footerspan {
 		
 		margin: 10px auto;
-		padding: 4em;
+		padding: 2em;
 
 	}
+
+	
 
 /* Wide */
 
