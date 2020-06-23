@@ -1,10 +1,3 @@
-// const today = new Date();
-// const before = new Date("May 1 2020 10:00:00");
-// const update = dateFns.distanceInWords(today, before, {addSuffix: true});
-
-
-
-
 window.onload = function () {
   document.body.classList.remove("is-preload");
 };
@@ -15,10 +8,6 @@ window.onorientationchange = function () {
   document.body.scrollTop = 0;
 };
 
-
-// const html = `
-// <span>Created ${}</span>
-// `;
 
 document.querySelector('#footer').innerHTML += html;
 
@@ -31,11 +20,5 @@ window.ontouchmove = function () {
 window.onorientationchange = function () {
   document.body.scrollTop = 0;
 };
-
-
-
-//  dateFns.distanceInWords(now, before, {addSuffix: true})
-
-//  time.innerHTML = dateFns.distanceInWords(now, before, {addSuffix: true});
 
 
