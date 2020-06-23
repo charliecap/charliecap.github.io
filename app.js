@@ -1,6 +1,6 @@
-const today = new Date();
-const before = new Date("May 1 2020 10:00:00");
-const update = dateFns.distanceInWords(today, before, {addSuffix: true});
+// const today = new Date();
+// const before = new Date("May 1 2020 10:00:00");
+// const update = dateFns.distanceInWords(today, before, {addSuffix: true});
 
 
 
@@ -16,9 +16,9 @@ window.onorientationchange = function () {
 };
 
 
-const html = `
-<span>Created ${update}</span>
-`;
+// const html = `
+// <span>Created ${}</span>
+// `;
 
 document.querySelector('#footer').innerHTML += html;
 
