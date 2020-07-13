@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 @import url("fontawesome-all.min.css");
 
-
 /*
 	Aerial by HTML5 UP
 	html5up.net | @ajlkn
@@ -100,7 +99,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: rgb(140, 0, 255);
+		color: #fff;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 15pt;
 		font-weight: 300 !important;
@@ -227,8 +226,7 @@ input, select, textarea {
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
 
-		background: #390894 url("../images/geo.jpg") bottom left;
-		background: #390894 url("../images/geo.jpg") bottom left;
+		background: #390894 url("../../../../images/cube.jpg") bottom left;
 		background-repeat: repeat-x;
 		height: 110%;
 		left: 0;
@@ -711,8 +709,6 @@ input, select, textarea {
 					display: none;
 				}
 
-
-
 /* Footer */
 
 	#footer {
@@ -733,11 +729,9 @@ input, select, textarea {
 	.footerspan {
 		
 		margin: 10px auto;
-		padding: 2em;
+		padding: 4em;
 
 	}
-
-	
 
 /* Wide */
 
