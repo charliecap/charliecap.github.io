@@ -42,6 +42,9 @@ window.onorientationchange = function () {
 const now = new Date();
 const before = new Date("May 1 2020 10:00:00");
 const update = dateFns.distanceInWords(now, before, {addSuffix: true});
+//  What if we just cut datefns out and use the span in a string?
+
+
 
 const html = `
 <span>Created ${update}</span>
