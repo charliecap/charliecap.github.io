@@ -1,47 +1,265 @@
-<!DOCTYPE HTML>
-<!--
-	Aerial by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Profile</title>
-		<link rel="shortcut icon" type="image/png" href="../../images/mandocrop.png">
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
-		<div id="wrapper">
-			<div id="bg"></div>
-			<div id="overlay"></div>
-			<div id="main">
+<title>CharlieCap</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<script src="https://kit.fontawesome.com/dd4d05d7f8.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style/owl.carousel.min.css">
+<link rel="stylesheet" href="style/owl.theme.default.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+  integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<link rel="stylesheet" href="style/style.css">
 
-				<!-- Header -->
-					<header id="header">
-						<h1>Charles Cline</h1>
-						<p>Father &nbsp;&bull;&nbsp; Husband &nbsp;&bull;&nbsp; Developer</p>
-						<nav>
-							<ul>
-								<li><a href="https://twitter.com/DeveloperCline" target="_Blank" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="https://www.facebook.com/charlesclinesdesk" target="_Blank" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-								<li><a href="https://github.com/charliecap" target="_Blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
-								<li><a href="mailto:charlesclinesdesk@gmail.com" target="_Blank" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-							</ul>
-						</nav>
-					</header>
+<body class="w3-black">
 
-				<!-- Footer -->
-					<footer id="footer">
-						<span class="copyright footerspan">&copy; monalisa</span>
-						<!-- <span class="time footerspan"></span> -->
-					</footer>
+  <!-- Icon Bar (Sidebar - hidden on small screens) -->
+  <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+    <!-- Avatar image in top left corner -->
+    <img src="../images/avatarlrg.png" style="width:100%">
+    <!-- <video src="../images/animated-8-bit-logo-maker-featuring-a-cute-character-1741i-2933.mp4" autoplay loop></video> -->
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+      <i class="fa fa-home w3-xxlarge"></i>
+      <p>HOME</p>
+    </a>
+    <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <i class="fa fa-user w3-xxlarge"></i>
+      <p>ABOUT</p>
+    </a>
+    <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <i class="fa fa-eye w3-xxlarge"></i>
+      <p>PORTFOLIO</p>
+    </a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <i class="fa fa-envelope w3-xxlarge"></i>
+      <p>CONTACT</p>
+    </a>
+  </nav>
 
-			</div>
-		</div>
-		<!-- <script src="http://cdn.date-fns.org/v1.9.0/date_fns.min.js"></script> -->
-		<script src="app.js"></script>
-	</body>
+  <!-- Navbar on small screens (Hidden on medium and large screens) -->
+  <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+    <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+      <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+      <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+      <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PORTFOLIO</a>
+      <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+    </div>
+  </div>
+
+  <!-- Page Content -->
+  <div class="w3-padding-large" id="main">
+    <!-- Header/Home -->
+    <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+      <h1 class="w3-jumbo"><span class="w3-hide-small"></span> Charlie Cline</h1>
+      <p>Web Designer</p>
+      <!-- <img src="../images/codingwall.jpg" alt="boy" class="w3-image" width="992" height="1108"> -->
+      <!-- <video class="vid" src="../images/animated-8-bit-logo-maker-featuring-a-cute-character-1741i-2933.mp4" width="720" height="480" autoplay loop></video>
+      -->
+      <!--add controls just like autoplay-->
+      <video src="../images/animated-8-bit-logo-maker-featuring-a-cute-character-1741i-2933.mp4" id="vid" width="720"
+        height="480" playsinline muted autoplay loop></video>
+
+    </header>
+
+    <!-- About Section -->
+    <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+      <h2 class="w3-text-light-grey">Me</h2>
+      <hr style="width:200px" class="w3-opacity">
+      <p>I am a husband and father of two. I finally found the time I needed to start studying JavaScript during
+        quarantine, and now I am working freelance on web development projects while studying Python.</p>
+      <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+      <p class="w3-wide">JavaScript</p>
+      <div class="w3-white">
+        <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+      </div>
+      <p class="w3-wide">HTML/CSS</p>
+      <div class="w3-white">
+        <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+      </div>
+      <p class="w3-wide">Video Editing</p>
+      <div class="w3-white">
+        <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+      </div><br>
+
+
+
+      <!-- Portfolio Section -->
+      <div class="w3-padding-64 w3-content" id="photos">
+        <h2 class="w3-text-light-grey">My Projects</h2>
+        <hr style="width:200px" class="w3-opacity">
+
+        <div class="container mt-5 mb-5">
+          <div class="owl-carousel owl-theme">
+            <a href="https://github.com/charliecap/dexAssist" target="blank">
+              <div class="item" style="background-color: #ddd;">
+                <div class="card">
+                  <img src="../images/card1.jpg" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">dexAssist
+                    </h5>
+                    PokeDex weakness info.
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="https://charliecap.github.io" target="blank">
+            <div class="item" style="background-color: #ddd;">
+              <div class="card">
+                <img src="../images/card4.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">personal contact</h5>
+                  Digital Card.
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="https://github.com/charliecap/loan-calculator"
+                      target="blank">
+            <div class="item" style="background-color: #ddd;">
+              <div class="card">
+                <img src="../images/card5.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">loan-calculator</h5>
+                  Exactly what it says! Calculate loans with interest.
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="https://charliecap.github.io" target="blank">
+            <div class="item" style="background-color: #ddd;">
+              <div class="card">
+                <img data-src="../images/card3.jpg" class="card-img-top owl-lazy">
+                <div class="card-body">
+                  <h5 class="card-title">booklist</h5>
+                  Entry and deletion form for tracking books.
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="https://charliecap.github.io" target="blank">
+            <div class="item" style="background-color: #ddd;">
+              <div class="card">
+                <img src="../images/card2.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">to-do</h5>
+                  to-do list, early project.
+                </div>
+              </div>
+            </div>
+          </a>
+
+            <!-- <div class="ml-2 mr-2" style="background-color: #ddd;">6</div> -->
+          </div>
+        </div>
+
+      </div>
+      <!-- End Portfolio Section -->
+    </div>
+
+  </div>
+
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Louisville, KY</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i>502-905-0030</p>
+      <p><a href="mailto:charlesclinesdesk@gmail.com"><i
+            class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i>charlesclinesdesk@gmail.com</a>
+      </p>
+    </div><br>
+    <p>Let's get in touch! Send me a message, and let me get to work for you!</p>
+
+
+
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <a href="https://www.facebook.com/charlesclinesdesk" target="blank"><i
+        class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a href="https://www.instagram.com/cline.developer" target="blank"><i
+        class="fa fa-instagram w3-hover-opacity"></i></a>
+
+    <a href="https://www.twitter.com/DeveloperCline" target="blank"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+    <a href="https://www.linkedin.com/in/charles-cline-b01243152/" target="blank"><i
+        class="fa fa-linkedin w3-hover-opacity"></i></a>
+    <p class="w3-medium">Powered by <a href="https://charliecap.github.io" target="_blank"
+        class="w3-hover-text-green">@DeveloperCline</a></p>
+    <!-- End footer -->
+  </footer>
+
+
+
+  <!-- END PAGE CONTENT -->
+  </div>
+
+
+  <script src="script/app.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+  </script>
+  <script src="script/owl.carousel.min.js"></script>
+  <script src="script/jquery.mousewheel.min.js"></script>
+
+
+  <script>
+    $('.owl-carousel').owlCarousel({
+      autoplay: true,
+      autoplayHoverPause: true,
+      // items: 4,
+      // nav: true,
+      // dots: true,
+      // loop: true,
+      lazyLoad: true,
+      margin: 5,
+      stagePadding: 5,
+      responsive: {
+        0: {
+          items: 1,
+          dots: true,
+        },
+        485: {
+          items: 2,
+          dots: true,
+        },
+        728: {
+          items: 3,
+          loop: true,
+        },
+        968: {
+          items: 4,
+          loop: true,
+        },
+        1200: {
+          items: 5,
+          dots: true,
+        }
+      }
+    });
+    $('.owl-carousel').on('mousewheel', '.owl-stage', function (e) {
+      if (e.deltaY > 0) {
+        $('.owl-carousel').trigger('next.owl');
+      } else {
+        $('.owl-carousel').trigger('prev.owl');
+      }
+      e.preventDefault();
+    });
+  </script>
+
+
+
+</body>
+
 </html>
