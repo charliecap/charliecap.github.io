@@ -226,7 +226,7 @@ input, select, textarea {
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
 
-		background: #390894 url("assets\css\images\geometric-shapes-neon-lights-background_23-2148434475.jpg") bottom left;
+		background: #390894 url("\assets\css\images\geometric-shapes-neon-lights-background_23-2148434475.jpg") bottom left;
 		background-repeat: repeat-x;
 		height: 110%;
 		left: 0;
