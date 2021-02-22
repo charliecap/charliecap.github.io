@@ -46,9 +46,9 @@ const before = new Date("May 1 2020 10:00:00");
 
 
 
-const html = `
-<span>Created ${update}</span>
-`;
+// const  html = `
+// <span>Created ${update}</span>
+// `;
 
 document.querySelector('#footer').innerHTML += html;
 
