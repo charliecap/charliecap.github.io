@@ -59,6 +59,3 @@ const before = new Date("May 1 2020 10:00:00");
 
 //  time.innerHTML = dateFns.distanceInWords(now, before, {addSuffix: true});
 
-
-
-
